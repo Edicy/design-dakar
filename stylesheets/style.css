@@ -6,6 +6,26 @@ body, p {margin:0; padding:0;}
 body {background:#fff; font: 13px/21px Arial, Helvetica, 'Trebuchet MS', sans-serif; color:#29343b; margin-top:71px;}
 img {border:0;}
 
+/* Editable content image */
+.edy-positionable-container-left {
+  margin-right: 15px;
+}
+.edy-positionable-container-right {
+  margin-left: 15px;
+}
+.edy-image-container-with-title:after {
+  display: block;
+  padding: 4px;
+  font-size: 10px;
+  line-height: 1.3em;
+  content: attr(data-title);
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 .active {font-weight:bold;}
 .none {text-decoration:none; background:#fff;}
 	.none:hover {text-decoration:underline;}
