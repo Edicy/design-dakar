@@ -20,7 +20,7 @@
 	</div>
 	<div id="content">
   {% include "Menu" %}
-  <div id="content-body" class="clearfix">
+  <div id="content-body" class="clearfix" data-search-indexing-allowed="true">
    {% content %}
   </div><div class="clearer"></div>
 	</div>

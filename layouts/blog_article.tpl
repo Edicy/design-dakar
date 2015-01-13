@@ -24,9 +24,9 @@
   <div id="content-body">
    <h2>{% editable article.title plain="true" %}</h2>
    <div class="blog-info">{{ article.created_at | format_date:"long" }}, <span>{{ article.author.name }}</span>, <a href="#comments">{{"comments_for_count"|lc}}: <span class="edy-site-blog-comments-count">{{ article.comments_count }}</span></a></div>
-   {% editable article.excerpt %}
+   <div data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
    <br /><br />
-   {% editable article.body %}   
+   <div data-search-indexing-allowed="true">{% editable article.body %}</div>
    <div class="hr"></div>
 
    <div id="comments">
