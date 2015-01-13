@@ -1,152 +1,152 @@
 {
-  "assets": [
-    {
-      "filename": "style.css",
-      "file": "stylesheets/style.css",
-      "kind": "stylesheets",
-      "content_type": "text/css"
-    },
-    {
-      "filename": "lang-and-search.png",
-      "file": "images/lang-and-search.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "menu-b.png",
-      "file": "images/menu-b.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "menu-bot.png",
-      "file": "images/menu-bot.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "comment-submit.png",
-      "file": "images/comment-submit.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "content-bottom.png",
-      "file": "images/content-bottom.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "content-li.png",
-      "file": "images/content-li.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "input-text.png",
-      "file": "images/input-text.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "menu-top.png",
-      "file": "images/menu-top.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "dakarsubmit.png",
-      "file": "images/dakarsubmit.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "lang-and-search-top.png",
-      "file": "images/lang-and-search-top.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "lang-and-search-bottom.png",
-      "file": "images/lang-and-search-bottom.png",
-      "kind": "images",
-      "content_type": "image/png"
-    },
-    {
-      "filename": "lang-and-search-loop.png",
-      "file": "images/lang-and-search-loop.png",
-      "kind": "images",
-      "content_type": "image/png"
-    }
-  ],
+  "description": "Dakar",
+  "name": "Dakar",
   "preview_medium": "http://static.edicy.com/designs/previews/dakar_medium.png",
+  "preview_small": "http://static.edicy.com/designs/previews/dakar_small.jpg",
   "author": "Tajo Oja",
   "layouts": [
     {
-      "title": "Common page",
-      "file": "layouts/common_page.tpl",
-      "layout_name": "page_default",
+      "content_type": "page",
       "component": false,
-      "content_type": "page"
-    },
-    {
-      "title": "Langmenu",
-      "file": "components/langmenu.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Menu",
-      "file": "components/menu.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Search",
-      "file": "components/search.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "SiteHeader",
-      "file": "components/siteheader.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Blog & News",
-      "file": "layouts/blog___news.tpl",
-      "layout_name": "blog_front",
-      "component": false,
-      "content_type": "blog"
-    },
-    {
-      "title": "Blog article",
-      "file": "layouts/blog_article.tpl",
-      "layout_name": "blog_article",
-      "component": false,
-      "content_type": "blog_article"
-    },
-    {
-      "title": "Front page",
       "file": "layouts/front_page.tpl",
       "layout_name": "page_front",
-      "component": false,
-      "content_type": "page"
+      "title": "Front page"
     },
     {
-      "title": "JS",
-      "file": "components/js.tpl",
-      "layout_name": "",
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/menu.tpl",
+      "layout_name": "menu",
+      "title": "menu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/search.tpl",
+      "layout_name": "search",
+      "title": "search"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
     }
   ],
-  "preview_small": "http://static.edicy.com/designs/previews/dakar_small.jpg",
-  "name": "Dakar",
-  "description": "Dakar"
+  "assets": [
+    {
+      "content_type": "image/png",
+      "file": "images/comment-submit.png",
+      "kind": "images",
+      "filename": "comment-submit.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/content-bottom.png",
+      "kind": "images",
+      "filename": "content-bottom.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/content-li.png",
+      "kind": "images",
+      "filename": "content-li.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/dakarsubmit.png",
+      "kind": "images",
+      "filename": "dakarsubmit.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/input-text.png",
+      "kind": "images",
+      "filename": "input-text.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/lang-and-search-bottom.png",
+      "kind": "images",
+      "filename": "lang-and-search-bottom.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/lang-and-search-loop.png",
+      "kind": "images",
+      "filename": "lang-and-search-loop.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/lang-and-search-top.png",
+      "kind": "images",
+      "filename": "lang-and-search-top.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/lang-and-search.png",
+      "kind": "images",
+      "filename": "lang-and-search.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/menu-b.png",
+      "kind": "images",
+      "filename": "menu-b.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/menu-bot.png",
+      "kind": "images",
+      "filename": "menu-bot.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/menu-top.png",
+      "kind": "images",
+      "filename": "menu-top.png"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
 }
