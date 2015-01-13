@@ -15,7 +15,7 @@
      </div>
    </div>
 	</div>	
-	<div id="heading">
+	<div id="heading" class="clearfix">
   <h1 class="clearfix">{% editable site.header %}</h1>
 	</div>
 	<div id="content">

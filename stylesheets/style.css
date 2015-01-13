@@ -146,7 +146,6 @@ div#heading {
 	text-align:center;
 	padding:10px 0;
 	width: 718px;
-	overflow: hidden;
 }
 div#content {
 	background: url('../images/content-bottom.png?1') no-repeat bottom;
@@ -161,7 +160,6 @@ width: 170px;
 	}
 	#menu li {
   width:170px;
-  overflow:hidden;
   margin:2px 0;
 background: white;
 	}
@@ -181,6 +179,9 @@ background: white;
 	#menu li.selected div a {
   background:url('../images/menu-bot.png?1') no-repeat bottom left;
 	}
+  #menu li.voog-cms-btn div {
+    background: none;
+  }
 	#menu li.selected .submenu {
   padding:5px 26px 10px 26px;
   margin:0;
@@ -189,7 +190,6 @@ background: white;
 	}
 	#menu li.selected .submenu li {
   width:118px;
-  overflow:hidden;
 padding: 3px 0;
 	}
 	#menu li.selected .submenu a {
@@ -202,7 +202,6 @@ padding: 0;
 div#content-body, div#content-blog {
 	float:left;
 	width:512px;
-	overflow:hidden;
 	padding:20px 18px 30px 18px;
 }
 div#content-body-inner, #div#content-blog-inner {

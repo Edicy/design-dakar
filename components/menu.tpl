@@ -16,8 +16,8 @@
          {% for level2 in item.visible_children %}
            <li{% unless level2.translated? %} class="untranslated"{% endunless %}><a href="{{ level2.url }}" {% unless level2.translated? %}class="fci-editor-menuadd"{% endunless %}{% if level2.selected? %} class="active"{% endif %}>{{ level2.title}}</a></li>
          {% endfor %}
-             <li>{% menubtn item.hidden_children %}</li>
-      <li>{% menuadd parent="item" %}</li>
+             <li class="voog-cms-btn">{% menubtn item.hidden_children %}</li>
+      <li class="voog-cms-btn">{% menuadd parent="item" %}</li>
          </ul>
 	{% else %}
 	{% if item.children? %}
@@ -32,6 +32,6 @@
    </li>
    
    {% endfor %}
-             {% if editmode %}<li>{% menubtn site.hidden_menuitems %}</li>{% endif %}
-   {% if editmode %}<li>{% menuadd %}</li>{% endif %}	
+             {% if editmode %}<li class="voog-cms-btn">{% menubtn site.hidden_menuitems %}</li>{% endif %}
+   {% if editmode %}<li class="voog-cms-btn">{% menuadd %}</li>{% endif %}	
   </ul>

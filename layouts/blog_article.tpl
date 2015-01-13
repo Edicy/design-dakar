@@ -16,12 +16,12 @@
      </div>
    </div>
 	</div>	
-	<div id="heading">
+	<div id="heading" class="clearfix">
   <h1 class="clearfix">{% editable site.header %}</h1>
 	</div>
 	<div id="content">
   {% include "Menu" %}
-  <div id="content-body">
+  <div id="content-body" class="clearfix" data-search-indexing-allowed="true">
    <h2>{% editable article.title plain="true" %}</h2>
    <div class="blog-info">{{ article.created_at | format_date:"long" }}, <span>{{ article.author.name }}</span>, <a href="#comments">{{"comments_for_count"|lc}}: <span class="edy-site-blog-comments-count">{{ article.comments_count }}</span></a></div>
    <div data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
