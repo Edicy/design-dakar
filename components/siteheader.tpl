@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 	{% stylesheet_link "style.css?dakar" %}
-	{% if editmode %}{% stylesheet_link "assets/admin/editmode.css" static_host="true" %}{% endif %}
+	{% if editmode %}<style>.untranslated{opacity:.5;filter:alpha(Opacity=50);zoom:1}</style>{% endif %}
 
 
 	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -14,4 +14,4 @@
  {% if site.search.enabled %}
 	{% stylesheet_link "assets/site_search/2.0/site_search.css" static_host="true" %}
         {% endif %}
-<!--[if IE]><link rel="stylesheet" href="http://static.edicy.com/assets/ie.css" type="text/css" /><![endif]-->
+<!--[if IE]><style>.clearfix { zoom:1; }</style><![endif]-->
