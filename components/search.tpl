@@ -9,6 +9,6 @@ top: 1px;
 <![endif]-->	
 		<form action="" id="search" class="edys-search">
 			<div class="right"><input type="submit" class="submit" value="" /></div>
-			<div class="right"><input type="text" class="textbox" id="onpage_search" /></div>
+			<div class="right"><input type="text" class="textbox" id="onpage_search" placeholder="{{  "search" | lc }}" /></div>
 		</form>
 		{% endif %}
