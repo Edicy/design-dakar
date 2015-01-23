@@ -26,6 +26,14 @@ img {border:0;}
   hyphens: auto;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 .active {font-weight:bold;}
 .none {text-decoration:none; background:#fff;}
 	.none:hover {text-decoration:underline;}

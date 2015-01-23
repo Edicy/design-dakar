@@ -6,7 +6,7 @@
   <title>{{article.title}} &laquo; {{page.title}} | {{site.name}}</title>
 </head>
 <body>
-<div id="container">
+<div id="container" class="content-hyphenate">
 	<div id="lang-and-search">
    <div id="lang-and-search-inner">
    <div id="lang-and-search-inner2">
