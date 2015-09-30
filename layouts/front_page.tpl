@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ page.language_code }}" lang="{{ page.language_code }}">
 <head>
 	{% include "SiteHeader" %}
-  <title>{{ page.site_title }} &raquo; {{page.title}}</title>
+  <title>{% unless page.site_title == "" %}{{ page.site_title }} &raquo; {% endunless %} {{page.title}}</title>
 </head>
 <body>
 <div id="container" class="content-hyphenate">
